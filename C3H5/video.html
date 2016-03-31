@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+*{margin:0; padding:0;}
+body{text-align:center;}
+.bar_box{width:800px; height:20px; background:#ccc; margin:0 auto; position:relative; top:0; left:0;}
+.pro{width:0; height:20px; position:absolute; top:0; left:0; background:#999;}
+.bar{width:30px; height:20px; background:black; position:absolute; top:0; left:0;}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+	var oPlay = document.querySelector('#play');
+	var oPause = document.querySelector('#pause');
+	var oStop = document.querySelector('#stop');
+	var oBarBox = document.querySelector('.bar_box');
+	var oPro = document.querySelector('.pro');
+	var oBar = document.querySelector('.bar');
+	var oV = document.querySelector('video');
+	oPlay.onclick=function(){
+		oV.play();
+	};
+	oPause.onclick=function(){
+		oV.pause();
+	};
+	oStop.onclick=function(){
+		oV.pause();
+		oV.currentTime=0;
+	};
+	oV.ontimeupdate=function(){
+		var scale = oV.currentTime/oV.duration;
+		oPro.style.width = oBarBox.offsetWidth*scale+'px';
+		var l = oBarBox.offsetWidth*scale;
+		if(l<0){
+			l = 0;
+		}else if(l>oBarBox.offsetWidth-oBar.offsetWidth){
+			l = oBarBox.offsetWidth-oBar.offsetWidth;
+		}
+		oBar.style.left = l+'px';
+	};
+	oBar.onmousedown=function(ev){
+		var disX = ev.clientX-oBar.offsetLeft;
+		document.onmousemove=function(ev){
+			var l = ev.clientX-disX;
+			if(l<0){
+				l = 0;
+			}else if(l>oBarBox.offsetWidth-oBar.offsetWidth){
+				l = oBarBox.offsetWidth-oBar.offsetWidth;
+			}
+			oBar.style.left = l+'px';
+			var scale = oBar.offsetLeft/(oBarBox.offsetWidth-oBar.offsetWidth);
+			
+			oPro.style.width = scale*oBarBox.offsetWidth+'px';
+			oV.currentTime = scale*oV.duration;
+		};
+		document.onmouseup=function(){
+			document.onmousemove=null;
+			document.onmouseup=null;
+		};
+		return false;
+	};
+	
+	oBarBox.onclick=function(ev){
+		var disX = ev.clientX-oBarBox.offsetLeft;
+		var scale = disX/oBarBox.offsetWidth;
+		oBar.style.left = scale*(oBarBox.offsetWidth-oBar.offsetWidth)+'px';
+		oPro.style.width = scale*oBarBox.offsetWidth+'px';
+		oV.currentTime = scale*oV.duration;
+	};
+},false);
+</script>
+</head>
+
+<body>
+<input type="button" value="播放" id="play" />
+<input type="button" value="暂停" id="pause" />
+<input type="button" value="停止" id="stop" /><br />
+<div class="bar_box">
+	<div class="pro"></div>
+	<div class="bar"></div>
+</div>
+<video src="http://images.sohu.com/ytv/SH/Coke/64036020120714021103.mp4" width="800">
+	您的浏览器版本过低，请尽快升级
+</video>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

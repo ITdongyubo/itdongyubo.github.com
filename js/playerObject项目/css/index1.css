@@ -1,0 +1,13 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style:none;font-size:12px;}
+a{text-decoration:none;}
+.dyb_box{width:222px;background:#353334;overflow:hidden;}
+.dyb_box .h2{margin-left:1px;width:220px;background:url(../images/icons01.png) no-repeat #303030;height:22px;border-bottom:2px solid #111;color:#fcba04;padding-left:27px;line-height:22px;}
+.dyb_box .h2 .jia{margin-left:96px;color:#fff;cursor:pointer;}
+.dyb_box .d_ul{width:222px;overflow:hidden;margin-left:1px;overflow:hidden;}
+.dyb_box .d_ul li{width:147px;background:url(../images/01.png) no-repeat #312f30 15px 4px;padding-left:73px;height:36px;line-height:36px;overflow:hidden;margin-bottom:1px;position:relative;cursor:pointer;}
+.dyb_box .d_ul li a{color:#cbcbcb;font-size:14px;}
+.dyb_box .d_ul li .bo{margin-left:10px;background:url(../images/playBtn.gif) no-repeat red;width:15px;height:15px;position:absolute;right:12px;top:10px;display:none;}
+
+
+

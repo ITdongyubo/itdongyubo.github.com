@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>player</title>
+<link href="css/common.css" rel="stylesheet" />
+<link href="css/player.css" rel="stylesheet" />
+<script src="js/sea.js" data-main="js/init2"></script>
+<script src="js/onlcik'+'.js"></script>
+<script src="js/move.js"></script>
+<script src="js/jquery-1.7.2.js"></script>
+
+</head>
+
+<body>
+	<div class="wapper">
+		<div class="header w1024 clearFix">
+			<h1 class="logo fl">傲视影音<img src="images/logo.png" ></h1>
+			<div class="fl header_nav clearFix">
+				<a href="index.html">视频库</a>
+				<a href="liveshow.html" >播放器</a>
+				<a href="player.html" class="on">直播</a>
+			</div>
+			<div class="fr header_l clearFix">
+				<span class="fl"></span>
+				<a href="javascript:;" class="fl header_min"></a>
+				<a href="javascript:;" class="fl header_max"></a>
+				<a href="javascript:;" class="fl header_del"></a>
+			</div>
+		</div>
+		<div class="con clearFix">
+			<div class="con_l fl">
+				<div class="con_l_t">
+					<div class="con_l_t_seach clearFix">
+						<input type="text" class="fl"/>
+						<a href="javascript:;" class="fl"></a>
+					</div>
+					<div class="con_l_t_user">
+						<div class="con_l_t_user_nav">
+							<span>傲视影音</span>
+							<a href="javascript:;">我的播放</a>
+							<a href="javascript:;">直播</a>
+							<a href="javascript:;">游戏</a>
+							<a href="javascript:;">用户</a>
+						</div>
+						<div class="con_l_t_data clearFix">
+							<img src="images/face.png" class="fl" />
+							<div class="fl con_l_t_data_r">
+								<h3 class="clearFix">
+									<span>strive_chen</span>
+									<a href="javascript:;" style="background:url(images/user_doudou.png) no-repeat; width:19px; height:13px;"></a>
+								</h3>
+								<p class="clearFix">
+									<span class="vip"></span>
+									<i style="background:url(images/level_sun.png) no-repeat;"></i>
+									<span class="sun">(0)</span>
+									<i style="background:url(images/level_yue.png) no-repeat;"></i>
+									<span class="month">(1)</span>
+									<i style="background:url(images/level_xing.png) no-repeat;"></i>
+									<span class="star">(2)</span>
+								</p>
+								<div class="clearFix">
+									<span>我的硬币:</span><i>1000</i>
+									<a href="javascript:;" class="exchange">我要兑换</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="con_l_b" id="con_l_b">
+					<div class="con_scroll_l" id="con_scroll_l">
+						<!--空着<div style="width:222px;height:1000px; background:yellow">空着 放内容</div> 放内容-->
+						<div class="dyb_box2">
+							<h2 class="h2">今日有新游戏<span class="jia">+</span></h2>
+							<div id="d_ne">
+								<div id="lol">
+									<span>播放历史</span>
+									<span>我的收藏</span>
+									<b id="jian">-</b>
+								</div>
+							</div>
+							<div id="d_Xbox">
+								<div class="d_a"style="display:block">strict-片花<b>13:14</b></div>
+								<div class="d_b">万水千山总是情-片花<b>13:14</b></div>
+								<ul id="d_num">
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+									<li>12</li>
+								</ul>
+								<ul id="d_move">
+									<li><a href="javascript:;">楚汉争霸-再爆片花</a><span class="d_s"></span></li>
+									<li><a href="javascript:;">箭在弦上-03预告</a><span class="d_s"></span></li>
+									<li><a href="javascript:;">安徽卫视片花</a><span class="d_t">--:--</span></li>
+									<li><a href="javascript:;">江湖（张学友刘德华）</a><span class="d_t">13:14</span></li>
+									<li><a href="javascript:;">安徽卫视片花</a><span class="d_t">--:--</span></li>
+									<li><a href="javascript:;">楚汉争霸-再爆片花</a><span class="d_t">13:14</span></li>
+									<li><a href="javascript:;">安徽卫视片花</a><span class="d_t">--:--</span></li>
+									<li><a href="javascript:;">楚汉争霸-再爆片花</a><span class="d_t">13:14</span></li>
+								</ul>
+							</div>
+							<div class="d_taobao">
+								<img src="images/ad.png" alt=""/>
+							</div>
+						</div>
+					</div>
+					<div class="con_scroll_r" id="con_scroll_r">
+						<img src="images/rollBarUp_bg.png" class="con_scroll_r_up cur" />
+						<div class="con_scroll_r_middle">
+							<div class="con_scroll_drop" id="con_scroll_drop"></div>
+						</div>
+						<img src="images/rollBarDown_bg.png" class="con_scroll_r_down cur"/>
+					</div>
+				
+				</div>
+			</div>
+			<div class="con_r fl">
+				<div class="con_r_win">
+					<div class="con_r_win_nav clearFix">
+						<h3>第十一期全程回顾[高清版]</h3>
+						<div class="clearFix">
+							<a href="javascript:;" style="background:url(images/icons/player_btn1.png) no-repeat;"></a>
+							<a href="javascript:;" style="background:url(images/icons/player_btn2.png) no-repeat;"></a>
+							<a href="javascript:;" style="background:url(images/icons/player_btn3.png) no-repeat;"></a>
+							<a href="javascript:;" style="background:url(images/icons/player_btn4.png) no-repeat;"></a>
+						</div>
+					</div>
+					<div class="con_r_win_con">
+						<!--空着放内容-->
+						<embed src="http://player.youku.com/player.php/sid/XNTQzNzQxMDY0/v.swf"></embed>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer clearFix">
+			<span class="fl">傲视影音V1.0</span>
+			<a href="javascript:;" class="fl">检查更新</a>
+		</div>
+	</div>
+</body>
+</html>

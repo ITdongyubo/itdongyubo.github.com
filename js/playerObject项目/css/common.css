@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,a,i,b,em,strong,span,img{ margin:0; padding:0; }
+a{ text-decoration:none; }
+li{ list-style:none; }
+em,i{ font-style:normal; }
+b,strong{ font-weight:normal; }
+.fl{ float:left; _display:inline;}
+.fr{ float:right; }
+.clearFix:after{ content:''; display:block; clear:both; }
+.clearFix{ zoom:1; }  
+img,input,textarea{vertical-align:top;}	
+img{display:block; border:0;}
+
+/*gongyong*/
+body{background:#282828;}
+.cur{cursor:pointer;}
+.wapper{width:1026px; margin:0 auto; min-width:1028px; border:1px solid #000;}
+.w1024{width:1024px;}

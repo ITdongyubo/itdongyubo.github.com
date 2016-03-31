@@ -1,0 +1,31 @@
+*{margin:0;padding:0;list-style:none;font-size:12px;}
+a{text-decoration:none;}
+.dyb_box2{width:222px;background:#353334;overflow:hidden;}
+.dyb_box2 .h2{margin-left:1px;width:220px;background:url(../img/icons01.png) no-repeat #303030;height:22px;border-bottom:2px solid #111;color:#fcba04;padding-left:27px;line-height:22px;}
+.dyb_box2 .h2 .jia{margin-left:96px;color:#fff;cursor:pointer;}
+#d_ne #lol{width:220px;background:#303030;overflow:hidden;position:relative;}
+#d_ne{width:220px;background:#303030;overflow:hidden;}
+#d_ne #lol span{width:58px;height:20px;color:#8c8c8c;float:left;padding-left:10px;padding-top:5px;cursor:pointer;}
+#lol b{color:#fff;position:absolute;top:5px;right:16px;cursor:pointer;}
+#d_Xbox{width:220px;overflow:hidden;}
+#d_Xbox div{display:none;width:202px;height:22px;background:url(../img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) no-repeat #020a15 5px 7px;color:#c5e3fd;padding-left:18px;position:relative;line-height:22px;}
+#d_Xbox div b{position:absolute;right:9px;top:0px;}
+#d_Xbox #d_num{height:126px;width:218px;border:1px solid #122948;background:#0c1828;overflow:hidden;}
+#d_Xbox #d_num li{width:34px;height:20px;background:#142c50;border-top:1px solid #2e568a;border-left:1px solid #2e568a;margin-left:7px;margin-top:8px;color:#b9e3e1;text-align:center;line-height:20px;float:left;cursor:pointer;}
+#d_Xbox #d_move{width:220px;overflow:hidden;margin-left:1px;}
+#d_Xbox #d_move li{margin-top:1px;height:22px;width:220px;position:relative;;background:#020a15;}
+#d_Xbox #d_move li a{color:#c5e3fd;margin-left:5px;padding-left:14px;line-height:22px;background:url(../img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) no-repeat 5px 3px;cursor:pointer;}
+#d_Xbox #d_move li .d_s{width:15px;height:15px;background:url(../img/play_historyTrue.png) no-repeat;position:absolute;top:5px;right:13px}
+#d_Xbox #d_move li .d_t{width:32px;height:15px;position:absolute;top:5px;right:5px;color:#c5e3fd;}
+#d_Xbox #d_move li a:hover{background:url(../img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) no-repeat 5px 3px #142c50;}
+.d_taobao{width:220px;height:197px;margin-top:50px;margin-left:1px;}
+.d_taobao{width:220px;height:197px;cursor:pointer;}
+
+
+
+
+
+
+
+
+

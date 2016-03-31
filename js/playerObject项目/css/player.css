@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*header*/
+.header{margin-left:1px; background:url(../images/header_bj.png) repeat-x; border:1px solid #000; margin-top:1px; height:37px;}
+h1{text-indent:-9999em; height:30px; width:98px; margin:4px 22px 0 9px; position:relative; }
+h1 img{position:absolute; top:0; left:0;}
+.header_nav{width:240px; height:36px;}
+.header_nav a{color:#a8a8aa;height:20px; float:left; width:80px; text-align:center;padding-top:16px; font-size:13px;}
+.header_nav a.on{color:#fff; background:linear-gradient(#24252a,red); }
+
+.header_l{width:91px; height:37px;}
+.header_l span{width:1px; height:37px; background:url(../images/header_l.png) no-repeat; margin-right:10px;}
+.header_l a{width:11px; height:11px; margin-top:13px;}
+.header_l .header_min{margin-right:20px;background:url(../images/header_-.png) no-repeat;}
+.header_l .header_max{margin-right:16px;background:url(../images/header_d.png) no-repeat;}
+.header_l .header_del{ background:url(../images/header_x.png) no-repeat;}
+/*con_l*/
+.con_l{width:239px;}
+.con_l_t{width:236px; border-top:1px solid #242424;border-left:1px solid #242424;margin-left:2px;}
+.con_l_t_seach{width:234px; height:31px; background:url(../images/search_bg.png) no-repeat;border-bottom:1px solid #242424;}
+.con_l_t_seach input{ width:200px; height:24px; background:#191917; border:none; margin:2px 0 0 2px;}
+.con_l_t_seach a{width:28px; height:31px;}
+
+.con_l_t_user_nav{width:234px; height:18px; border:1px solid #000; background:url(../images/con_t.png) no-repeat; font-size:12px;}
+.con_l_t_user_nav span{color:#fbb901;}
+.con_l_t_user_nav span,.con_l_t_user_nav a{margin:0 7px 0 6px; float:left; line-height:18px;}
+.con_l_t_user_nav a{color:#ccc;}
+.con_l_t_user_nav a:hover{color:red;}
+
+.con_l_t_data{width:234px; height:70px; border:1px solid #000; font-size:12px;}
+
+.con_l_t_data img{width:54px; height:54px; margin:7px 7px 0 9px;}
+.con_l_t_data_r h3{ margin-top:4px;}
+.con_l_t_data_r p{margin-top:6px;}
+.con_l_t_data_r div{ margin-top:2px;}
+.con_l_t_data_r h3 *{float:left;}
+.con_l_t_data_r h3 span{color:#f60;}
+.con_l_t_data_r p *{float:left;}
+.con_l_t_data_r p .vip{width:23px; height:14px; background:url(../images/level.png) no-repeat 0 2px;}
+.con_l_t_data_r p i{width:17px; height:17px;}
+.con_l_t_data_r p span{color:#ccc;}
+.con_l_t_data_r div *{float:left;}
+.con_l_t_data_r div span{color:#ccc;}
+.con_l_t_data_r div i{ color:#f60;}
+.con_l_t_data_r div a{color:#ccc; margin-left:8px;}
+.con_l_t_data_r div a:hover{color:red;}
+
+/* con_l_b*/
+.con_l_b{width:239px; height:444px; position:relative;}
+.con_scroll_l{ width:222px; height:442px; border-top:1px solid #333; border-bottom:1px solid #333; overflow:hidden; position:relative;}
+.con_scroll_r{width:15px; height:442px; border:1px solid #333; position:absolute; top:0; left:222px; background:#000;}
+.con_scroll_r .con_scroll_r_up{ position:absolute;top:1px; left:1px; width:13px; height:11px;}
+.con_scroll_r .con_scroll_r_down{ position:absolute;bottom:1px; left:1px;width:13px; height:11px;}
+.con_scroll_r .con_scroll_r_middle{ width:13px; height:418px;  position:absolute;top:13px; left:1px; background:#000;}
+.con_scroll_r .con_scroll_drop{ width:13px; height:300px; position:absolute; top:0px; left:0px; background:#403e3f;}
+
+/*con_r */
+
+
+
+.con_r{width:786px; height:570px; position:relative; border-right:1px solid #353537;}
+.con_r_win_nav{width:786px; height:38px; background:#1c1d21;}
+.con_r_win_nav h3{ float:left; color:#fff; height:38px; line-height:38px; width:620px; text-align:center;}
+.con_r_win_nav div{ float:right; margin-top:6px; margin-right:6px;}
+.con_r_win_nav div a{float:left; width:22px; height:22px; margin-right:8px;}
+.con_r_win_con{ width:786px; height:530px; border-bottom:1px solid #343434; overflow:hidden;}
+.con_r_win_con embed{width:786px; height:530px;}
+/*footer*/
+.footer{width:1016px; height:24px; border:1px solid #000; background:url(../images/footer1.png) no-repeat 2px 0; font-size:12px; line-height:24px; padding-left:10px;}
+.footer span{ color:#a8a8a8; margin-right:24px;}
+.footer a{ color:#a8a8a8;}
+.footer a:hover{color:red;}
+
+/*dongyubo*/
+*{margin:0;padding:0;list-style:none;font-size:12px;}
+a{text-decoration:none;}
+.dyb_box2{width:222px;background:#353334;overflow:hidden;}
+.dyb_box2 .h2{margin-left:1px;width:220px;background:url(../images/icons01.png) no-repeat #303030;height:22px;border-bottom:2px solid #111;color:#fcba04;padding-left:27px;line-height:22px;}
+.dyb_box2 .h2 .jia{margin-left:96px;color:#fff;cursor:pointer;}
+#d_ne #lol{width:220px;background:#303030;overflow:hidden;position:relative;}
+#d_ne{width:220px;background:#303030;overflow:hidden;}
+#d_ne #lol span{width:58px;height:20px;color:#8c8c8c;float:left;padding-left:10px;padding-top:5px;cursor:pointer;}
+#lol b{color:#fff;position:absolute;top:5px;right:16px;cursor:pointer;}
+#d_Xbox{width:220px;overflow:hidden;}
+#d_Xbox div{display:none;width:202px;height:22px;background:url(../images/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) no-repeat #020a15 5px 7px;color:#c5e3fd;padding-left:18px;position:relative;line-height:22px;}
+#d_Xbox div b{position:absolute;right:9px;top:0px;}
+#d_Xbox #d_num{height:126px;width:218px;border:1px solid #122948;background:#0c1828;overflow:hidden;}
+#d_Xbox #d_num li{width:34px;height:20px;background:#142c50;border-top:1px solid #2e568a;border-left:1px solid #2e568a;margin-left:7px;margin-top:8px;color:#b9e3e1;text-align:center;line-height:20px;float:left;cursor:pointer;}
+#d_Xbox #d_move{width:220px;overflow:hidden;margin-left:1px;}
+#d_Xbox #d_move li{margin-top:1px;height:22px;width:220px;position:relative;;background:#020a15;}
+#d_Xbox #d_move li a{color:#c5e3fd;margin-left:5px;padding-left:14px;line-height:22px;background:url(../images/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) no-repeat 5px 3px;cursor:pointer;}
+#d_Xbox #d_move li .d_s{width:15px;height:15px;background:url(../images/play_historyTrue.png) no-repeat;position:absolute;top:5px;right:13px}
+#d_Xbox #d_move li .d_t{width:32px;height:15px;position:absolute;top:5px;right:5px;color:#c5e3fd;}
+#d_Xbox #d_move li a:hover{background:url(../images/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) no-repeat 5px 3px #142c50;}
+.d_taobao{width:220px;height:197px;margin-top:50px;margin-left:1px;}
+.d_taobao{width:220px;height:197px;cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+

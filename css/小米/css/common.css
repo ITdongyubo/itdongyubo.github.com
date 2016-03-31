@@ -1,0 +1,10 @@
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,a,i,b,em,strong,span,img,input,select{ padding: 0px; margin: 0px; }
+a{ text-decoration: none; }
+li{ list-style: none; }	
+.fl{ float: left; display:inline; }
+.fr{ float: right; display:inline; }
+.clearFix:after{ content: ''; display: block; clear: both; }
+.clearFix{ zoom: 1; }
+.wrapper{ width:930px; margin: 0 auto; font-size: 12px; color: #6d6d6d; }
+a{ color: #333; }
+a:hover{ color: #ff4a00;}

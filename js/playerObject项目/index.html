@@ -1,0 +1,1507 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>play首页</title>
+<link href="css/common.css" rel="stylesheet" />
+<link href="css/index.css" rel="stylesheet" />
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/move.js"></script>
+<script src="js/l_tab_inde.js"></script>
+<script src="js/sea.js" data-main="js/init"></script>
+</head>
+
+<body>
+	<div class="wapper">
+		<div class="header w1024 clearFix">
+			<h1 class="logo fl clearFix">傲视影音<img src="images/logo.png" ></h1>
+			<div class="fl header_nav clearFix">
+				<a href="index.html" class="on">视频库</a>
+				<a href="liveshow.html">播放器</a>
+				<a href="player.html">直播</a>
+			</div>
+			<div class="fr header_l clearFix">
+				<span class="fl"></span>
+				<a href="javascript:;" class="fl header_min"></a>
+				<a href="javascript:;" class="fl header_max"></a>
+				<a href="javascript:;" class="fl header_del"></a>
+			</div>
+		</div>
+		<div class="con clearFix">
+			<div class="con_l fl">
+				<div class="con_l_t">
+					<div class="con_l_t_seach clearFix">
+						<input type="text" class="fl"/>
+						<a href="javascript:;" class="fl"></a>
+					</div>
+					<div class="con_l_t_user">
+						<div class="con_l_t_user_nav clearFix">
+							<span>傲视影音</span>
+							<a href="javascript:;">我的播放</a>
+							<a href="javascript:;">直播</a>
+							<a href="javascript:;">游戏</a>
+							<a href="javascript:;">用户</a>
+						</div>
+						<div class="con_l_t_data clearFix">
+							<img src="images/face.png" class="fl" />
+							<div class="fl con_l_t_data_r">
+								<h3 class="clearFix">
+									<span>strive_chen</span>
+									<a href="javascript:;" style="background:url(images/user_doudou.png) no-repeat; width:19px; height:13px;"></a>
+								</h3>
+								<p class="clearFix">
+									<span class="vip"></span>
+									<i style="background:url(images/level_sun.png) no-repeat;"></i>
+									<span class="sun">(0)</span>
+									<i style="background:url(images/level_yue.png) no-repeat;"></i>
+									<span class="month">(1)</span>
+									<i style="background:url(images/level_xing.png) no-repeat;"></i>
+									<span class="star">(2)</span>
+								</p>
+								<div class="clearFix">
+									<span>我的硬币:</span><i>1000</i>
+									<a href="javascript:;" class="exchange">我要兑换</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="con_l_b" id="con_l_b">
+					<div class="con_scroll_l" id="con_scroll_l">
+						<!--空着<div style="width:222px;height:1000px; background:yellow">空着 放内容<p></p></div> 放内容-->
+						<div class="sxt_left">
+							<h3 class="clearfix">今日有最新游戏<span>+</span></h3>
+ 		<!--sxt一个选项卡布局影院-->
+							<div class="sxt_box" id="sxt_box">
+								<ul class="clearfix b_list ">
+									<li class="active"><a href="javascript:;">傲视影院</a></li>
+									<li><a href="javascript:;">热门游戏</a></li>
+									<li><a href="javascript:;">购物优惠</a></li>
+									<span id="s_s1">-</span>
+								</ul>
+								<ol id="s_block1">
+									<div class="show">
+										<ul>
+											<li >
+												[欧美]嘻哈三部曲之绝世高手1
+												<a href="javascript:;">播放</a>
+											</li>
+											<li class="add">
+												[欧美]嘻哈三部曲之绝世高手1
+												<a href="javascript:;">播放</a>
+											</li>
+											<li>
+												[欧美]嘻哈三部曲之绝世高手1
+												<a href="javascript:;">播放</a>
+											</li>
+											<li class="add">
+												[欧美]嘻哈三部曲之绝世高手1
+												<a href="javascript:;">播放</a>
+											</li>
+										</ul>
+									</div>
+									<div>
+										<ul>
+											<li >
+												[欧美]嘻哈三部曲之绝世高手2
+												<a href="javascript:;">播放</a>
+											</li>
+											<li class="add">
+												[欧美]嘻哈三部曲之绝世高手2
+												<a href="javascript:;">播放</a>
+											</li>
+											<li>
+												[欧美]嘻哈三部曲之绝世高手2
+												<a href="javascript:;">播放</a>
+											</li>
+											<li class="add">
+												[欧美]嘻哈三部曲之绝世高手2
+												<a href="javascript:;">播放</a>
+											</li>
+										</ul>
+									</div>
+									<div>
+										<ul>
+											<li >
+												[欧美]嘻哈三部曲之绝世高手3
+												<a href="javascript:;">播放</a>
+											</li>
+											<li class="add">
+												[欧美]嘻哈三部曲之绝世高手3
+												<a href="javascript:;">播放</a>
+											</li>
+											<li>
+												[欧美]嘻哈三部曲之绝世高手3
+												<a href="javascript:;">播放</a>
+											</li>
+											<li class="add">
+												[欧美]嘻哈三部曲之绝世高手3
+												<a href="javascript:;">播放</a>
+											</li>
+										</ul>
+									</div>
+								</ol>
+							</div>
+ 		<!--sxt一个选项卡布局影院结束-->
+ 		<!--sxt二个选项卡布局剧场-->
+							<div class="sxt_box sxt_box1" id="sxt_box1">
+								<ul class="clearfix b_list ">
+									<li class="active"><a href="javascript:;">同部剧场</a></li>
+									<li><a href="javascript:;">影院大片</a></li>
+									<li><a href="javascript:;">热门综艺</a></li>
+									<span id="s_s2">-</span>
+								</ul>
+								<ol id="s_block2">
+									<div class="show">
+									<ul>
+										<li >
+											<span class="pink">[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a>
+										</li>
+										<li class="add">
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li>
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li class="add">
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li>
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+									</ul>
+								</div>
+								<div>
+									<ul>
+										<li >
+											<span class="pink">[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a>
+										</li>
+										<li class="add">
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li>
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li class="add">
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li>
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+									</ul>
+								</div>
+								<div>
+									<ul>
+										<li >
+											<span class="pink">[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a>
+										</li>
+										<li class="add">
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li>
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li class="add">
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+										<li>
+											<span>[历史]赵氏孤儿案</span>(<b>30</b>/40)
+											<a href="javascript:;">播放</a> 	
+										</li>
+									</ul>
+								</div>
+								</ol>
+								
+							</div>
+ 		<!--sxt二个选项卡布局剧场结束-->
+							<h3 class="tab">
+								同部剧场,100部剧场等着你
+								<a href="javascript:;"></a>
+							</h3>
+		<!--sxt第三个选项卡布局-->
+							<div class="sxt_box sxt_box3" id="sxt_box3">
+								<ul class="clearfix b_list">
+									<p class="b_yellow">视频库</p>
+									<li class="active"><a href="javascript:;">电视剧</a></li>
+									<li><a href="javascript:;">电影</a></li>
+									<li><a href="javascript:;">动漫</a></li>
+									<li><a href="javascript:;">综艺</a></li>
+									<span id="s_s3">-</span>
+								</ul>
+								<ol id="s_block3">
+									<div class="show">
+										<ul>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场1(<b>111</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场1(<b>111</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场1(<b>111</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场1(<b>111</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场1(<b>111</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+										</ul>
+									</div>
+									<div>
+										<ul>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场1(<b>112</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场1(<b>112</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场2(<b>112</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场2(<b>112</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场2(<b>112</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+										</ul>
+									</div>
+									<div>
+										<ul>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+										</ul>
+									</div>	
+									<div>
+										<ul>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+											<li >
+												<span class="s_left">
+													<a href="javascript:;" class="arit">+</a>
+												</span>
+												内地剧场3(<b>113</b>部)
+												<a href="javascript:;">播放</a>
+											</li>
+										</ul>
+									</div>	
+								</ol>
+								
+							</div>
+ 		<!--sxt第三个选项卡布局结束-->
+ 		
+ 		<!--sxt第四个选项卡布局-->
+							<div class="sxt_box sxt_box3 sxt_box4" id="sxt_box4">
+								<ul class="clearfix b_list">
+									<p class="b_yellow">视频库</p>
+									<li class="active"><a href="javascript:;">电视剧</a></li>
+									<li><a href="javascript:;">电影</a></li>
+									<li><a href="javascript:;">动漫</a></li>
+									<li><a href="javascript:;">综艺</a></li>
+									<span id="s_s4">-</span>
+								</ul>
+								<ol id="s_block4">
+									<div class="show" id="sbox1">
+									<ul>
+										<li>
+											<h6 class="block none">
+												<span>1</span>
+												<i>华丽一族</i>
+												<a href="javascript:;">播放</a>
+											</h6>
+											<dl class="show1">
+												<img class="fl" src="images/movie_rank_eg.png" alt="">
+												<p class="fl">
+													<span>1</span>
+													<h5>恋子爱了</h5>
+													<p>
+														故事故事故事故事故事故事故事故事故事故事故事..
+													</p>
+													<a href="javascript:;">点击播放</a>
+												</p>
+											</dl>
+										</li>
+										<li>
+											<h6 class="block">
+												<span>1</span>
+												<i>华丽一族</i>
+												<a href="javascript:;">播放</a>
+											</h6>
+											<dl>
+												<img class="fl" src="images/movie_rank_eg.png" alt="">
+												<p class="fl">
+													<span>1</span>
+													<h5>恋子爱了</h5>
+													<p>
+														故事故事故事故事故事故事故事故事故事故事故事..
+													</p>
+													<a href="javascript:;">点击播放</a>
+												</p>
+											</dl>
+										</li>
+										<li>
+											<h6 class="block">
+												<span>1</span>
+												<i>华丽一族</i>
+												<a href="javascript:;">播放</a>
+											</h6>
+											<dl>
+												<img class="fl" src="images/movie_rank_eg.png" alt="">
+												<p class="fl">
+													<span>1</span>
+													<h5>恋子爱了</h5>
+													<p>
+														故事故事故事故事故事故事故事故事故事故事故事..
+													</p>
+													<a href="javascript:;">点击播放</a>
+												</p>
+											</dl>
+										</li>
+										<li>
+											<h6 class="block">
+												<span>1</span>
+												<i>华丽一族</i>
+												<a href="javascript:;">播放</a>
+											</h6>
+											<dl>
+												<img class="fl" src="images/movie_rank_eg.png" alt="">
+												<p class="fl">
+													<span>1</span>
+													<h5>恋子爱了</h5>
+													<p>
+														故事故事故事故事故事故事故事故事故事故事故事..
+													</p>
+													<a href="javascript:;">点击播放</a>
+												</p>
+											</dl>
+										</li>
+										<li>
+											<h6 class="block">
+												<span>1</span>
+												<i>华丽一族</i>
+												<a href="javascript:;">播放</a>
+											</h6>
+											<dl>
+												<img class="fl" src="images/movie_rank_eg.png" alt="">
+												<p class="fl">
+													<span>1</span>
+													<h5>恋子爱了</h5>
+													<p>
+														故事故事故事故事故事故事故事故事故事故事故事..
+													</p>
+													<a href="javascript:;">点击播放</a>
+												</p>
+											</dl>
+										</li>
+										<li>
+											<h6 class="block">
+												<span>1</span>
+												<i>华丽一族</i>
+												<a href="javascript:;">播放</a>
+											</h6>
+											<dl>
+												<img class="fl" src="images/movie_rank_eg.png" alt="">
+												<p class="fl">
+													<span>1</span>
+													<h5>恋子爱了</h5>
+													<p>
+														故事故事故事故事故事故事故事故事故事故事故事..
+													</p>
+													<a href="javascript:;">点击播放</a>
+												</p>
+											</dl>
+										</li>
+									</ul>
+									</div>
+									<div id="sbox2">
+										<ul>
+											<li>
+												<h6 class="block none">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl class="show1">
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>2</span>
+													<i>华丽一族2</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>3</span>
+													<i>华丽一族3</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>3</span>
+														<h5>恋子爱了3</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>3</span>
+													<i>华丽一族3</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>3</span>
+														<h5>恋子爱了3</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>3</span>
+													<i>华丽一族5</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>5</span>
+														<h5>恋子爱了5</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+										</ul>
+									</div>
+									<div id="sbox3">
+										<ul>
+											<li>
+												<h6 class="block none">
+													<span>1</span>
+													<i>华丽一族df</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl class="show1">
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了dd</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+										</ul>
+									</div>
+									<div id="sbox4">
+										<ul>
+											<li>
+												<h6 class="block none">
+													<span>4</span>
+													<i>华丽一族d</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl class="show1">
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>d</span>
+														<h5>恋子d爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+											<li>
+												<h6 class="block">
+													<span>1</span>
+													<i>华丽一族</i>
+													<a href="javascript:;">播放</a>
+												</h6>
+												<dl>
+													<img class="fl" src="images/movie_rank_eg.png" alt="">
+													<p class="fl">
+														<span>1</span>
+														<h5>恋子爱了</h5>
+														<p>
+															故事故事故事故事故事故事故事故事故事故事故事..
+														</p>
+														<a href="javascript:;">点击播放</a>
+													</p>
+												</dl>
+											</li>
+										</ul>
+									</div>
+								</ol>
+							</div>
+ 		<!--sxt第四个选项卡布局结束-->
+ 		<!--sxt第五个选项卡布局-->
+							<div class="sxt_box sxt_box5" id="sxt_box5">
+								<ul class="clearfix b_list ">
+									<li class="active"><a href="javascript:;">播放历史</a></li>
+									<li><a href="javascript:;">我的收藏</a></li>
+									<span id="s_s5">-</span>
+								</ul>
+								<ol id="s_block5">
+												<div class="show">
+									<ul>
+										<li>
+											<a href="javascript:;">万水千山风雨晴</a>
+											<span>13:34</span>
+										</li>
+										<li>
+											<a href="javascript:;">万水千山风雨晴</a>
+											<span class="yes"></span>
+										</li>
+										<li>
+											<a href="javascript:;">万水千山风雨晴</a>
+											<span class="yes"></span>
+										</li>
+										<li>
+											<a href="javascript:;">万水千山风雨晴</a>
+											<span>--:--</span>
+										</li>
+										<li>
+											<a href="javascript:;">万水千山风雨晴</a>
+											<span>13:34</span>
+										</li>		
+									</ul>
+								</div>
+								<div>
+									<ul>
+										<li>
+											<a href="javascript:;">万水千山风雨晴1</a>
+											<span>13:34</span>
+										</li>
+										<li>
+											<a href="javascript:;">万水千山风雨晴2</a>
+											<span class="yes"></span>
+										</li>
+										<li>
+											<a href="javascript:;">万水千山风雨晴3</a>
+											<span class="yes"></span>
+										</li>
+										<li>
+											<a href="javascript:;">万水千山风雨晴</a>
+											<span>--:--</span>
+										</li>
+										<li>
+											<a href="javascript:;">万水千山风雨晴</a>
+											<span>13:34</span>
+										</li>		
+									</ul>
+								</div>
+								</ol>
+					
+							</div>
+ 		<!--选项卡第五个布局结束-->
+							<div class="sxt_bom">
+								<a href="javascript:;" class="b_l">清空</a>
+								<a href="javascript:;" class="b_c">查看全部</a>
+								<a href="javascript:;" class="b_r">+展开</a>
+							</div>
+							<div class="sxt_img">
+								<a href="javascript:;"><img src="images/ad.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="con_scroll_r" id="con_scroll_r">
+						<img src="images/rollBarUp_bg.png" class="con_scroll_r_up cur"/>
+						<div class="con_scroll_r_middle">
+							<div class="con_scroll_drop" id="con_scroll_drop"></div>
+						</div>
+						<img src="images/rollBarDown_bg.png" class="con_scroll_r_down cur"/>
+					</div>
+				
+				</div>
+			</div>
+			<div class="con_r fl">
+				<div class="con_r_win" id="con_r_win">
+					<div class="con_r_win_nav clearFix">
+						<div class="con_r_win_nav_l clearFix fl">
+							<a href="javascript:;" style="background:url(images/back_btn.png) no-repeat;"></a>
+							<a href="javascript:;" style="background:url(images/refresh.png) no-repeat;"></a>
+						</div>
+						<ul class="con_r_win_nav_m clearFix fl">
+							<li><a href="javascript:;" class="show">首页</a></li>
+							<li><a href="javascript:;">电影</a></li>
+							<li><a href="javascript:;">电视剧</a></li>
+							<li><a href="javascript:;">动漫</a></li>
+							<li><a href="javascript:;">综艺</a></li>
+							<li><a href="javascript:;">音乐</a></li>
+							<li><a href="javascript:;">卫星直播</a></li>
+							<li><a href="javascript:;">影院大片</a></li>
+						</ul>
+						<div class="con_r_win_nav_r fr clearFix">
+							<input type="text" class="fl"/>
+							<a href="javascript:;" class="fl"></a>
+						</div>
+					</div>
+					<div class="con_r_win_con" id="con_r_win_con">
+						<!--空着放内容-->
+						<div class="clearFix l_bg">
+		<div class="l_tab_index">
+			<div class="l_show">
+				<ul class="l_img" id="l_img">
+					<li style="opacity: 1;filter:alpha(opacity=100)">
+						<a href="javascript:;">
+							<img src="images/1.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/2.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/3.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/4.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/5.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/6.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/7.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/8.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/9.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/10.jpg" alt=""/>
+						</a>
+						<span class="l_bg_shandow"></span>
+						<p>
+							<a href="javascript:;">箭在弦上（第41集大结局）</a>
+						</p>	
+					</li>
+				</ul>
+			</div>
+			<div class="l_tab" id="l_tab">
+				<ul class="l_tab_img clearFix">
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_01.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_02.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_03.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_01.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_02.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_03.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_01.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_01.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_01.jpg" alt=""/>
+						</a>	
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/small_01.jpg" alt=""/>
+						</a>	
+					</li>
+				</ul>	
+				<div class="pointer"></div>
+			</div>
+		</div>
+		<div class="date_forcus">
+			<h3>今日热点</h3>
+			<ul class="l_hot clearFix" id="l_tab_forcus">
+				<li>
+					<a href="javascript:;">
+						<img src="images/av_eg.jpg" alt=""/>
+						<span class="l_play"></span>
+					</a>
+					<p>扬州发现隋炀帝真正陵寝</p>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/av_eg.jpg" alt=""/>
+						<span class="l_play"></span>
+					</a>
+					<p>扬州发现隋炀帝真正陵寝</p>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/av_eg.jpg" alt=""/>
+						<span class="l_play"></span>
+					</a>
+					<p>扬州发现隋炀帝真正陵寝</p>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/av_eg.jpg" alt=""/>
+						<span class="l_play"></span>
+					</a>
+					<p>扬州发现隋炀帝真正陵寝</p>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/av_eg.jpg" alt=""/>
+						<span class="l_play"></span>
+					</a>
+					<p>扬州发现隋炀帝真正陵寝</p>
+				</li>
+			</ul>
+		</div>
+        <div class="y_line"></div>
+        <div class="y_movie">
+            <div class="y_m_head clearFix">
+                <h3 class="fl">电影</h3>
+                <a href="script:;" class="fr">更多>></a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">韩国</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">日本</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">欧洲</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">好莱坞</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">华语</a>
+            </div>
+            <ul class="y_m_content clearFix">
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic y_m_pic">
+                        <img src="images/av_eg2.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic y_m_pic">
+                        <img src="images/av_eg2.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic y_m_pic">
+                        <img src="images/av_eg2.jpg" alt="" />
+                        <span class="y_play"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic y_m_pic">
+                        <img src="images/av_eg2.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic y_m_pic">
+                        <img src="images/av_eg2.jpg" alt="" />
+                        <span class="y_play"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+            </ul>
+        </div>
+		<div class="y_line"></div>
+        <div class="y_tv">
+            <div class="y_m_head clearFix">
+                <h3 class="fl">电视剧</h3>
+                <a href="script:;" class="fr">更多>></a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">泰剧</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">英剧</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">韩剧</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">台剧</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">港剧</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">美剧</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">内地</a>
+            </div>
+            <ul class="y_tv_content clearFix">
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg3.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg3.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg3.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg3.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg3.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg3.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg3.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg3.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                    </a>
+                    <a href="script:;" class="y_tittle">特殊交易</a>
+                    <p class="y_detail">青涩少年情挑陪酒女郎</p>
+                </li>
+            </ul>
+        </div>
+        <div class="y_ad">
+            <a href="script:;">
+                <img src="images/ad2.png" alt="" />
+            </a>
+        </div>
+        <div class="y_tv">
+            <div class="y_m_head clearFix">
+                <h3 class="fl">综艺</h3>
+                <a href="script:;" class="fr">更多>></a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">欧美</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">港台</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">内地</a>
+            </div>
+            <ul class="y_tv_content clearFix">
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg4.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">13集全</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">总决赛羽泉爆冷夺冠</a>
+                    <p class="y_detail">栏目：我是歌手</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg4.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">13集全</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">总决赛羽泉爆冷夺冠</a>
+                    <p class="y_detail">栏目：我是歌手</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg4.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">13集全</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">总决赛羽泉爆冷夺冠</a>
+                    <p class="y_detail">栏目：我是歌手</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg4.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">13集全</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">总决赛羽泉爆冷夺冠</a>
+                    <p class="y_detail">栏目：我是歌手</p>
+                </li>
+            </ul>
+        </div>
+        <div class="y_tv">
+            <div class="y_m_head clearFix">
+                <h3 class="fl">动漫</h3>
+                <a href="script:;" class="fr">更多>></a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">真人</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">励志</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">魔幻</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">冒险</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">剧情</a>
+                <span class="fr">|</span>
+                <a href="script:;" class="fr">搞笑</a>
+            </div>
+            <ul class="y_tv_content clearFix">
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg5.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">86分10秒</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">十万个冷笑话</a>
+                    <p class="y_detail">我是不吐槽会死星人</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg5.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">86分10秒</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">十万个冷笑话</a>
+                    <p class="y_detail">我是不吐槽会死星人</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg5.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">86分10秒</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">十万个冷笑话</a>
+                    <p class="y_detail">我是不吐槽会死星人</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg5.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">86分10秒</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">十万个冷笑话</a>
+                    <p class="y_detail">我是不吐槽会死星人</p>
+                </li>
+            </ul>
+        </div>
+        <div class="y_tv">
+            <div class="y_m_head clearFix">
+                <h3 class="fl">原创·微栏目</h3>
+                <a href="script:;" class="fr">更多>></a>
+            </div>
+            <ul class="y_tv_content clearFix">
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg6.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">大鹏嘚吧嘚</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">大鹏嘚吧嘚</a>
+                    <p class="y_detail">你有血光之灾</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg6.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">大鹏嘚吧嘚</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">大鹏嘚吧嘚</a>
+                    <p class="y_detail">你有血光之灾</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg6.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">大鹏嘚吧嘚</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">大鹏嘚吧嘚</a>
+                    <p class="y_detail">你有血光之灾</p>
+                </li>
+                <li class="fl">
+                    <a href="script:;" class="y_tv_pic">
+                        <img src="images/av_eg6.jpg" alt="" />
+                        <span class="y_play"></span>
+                        <span class="y_hotbtn"></span>
+                        <span class="y_black">大鹏嘚吧嘚</span>
+                    </a>
+                    <a href="script:;" class="y_tittle">大鹏嘚吧嘚</a>
+                    <p class="y_detail">你有血光之灾</p>
+                </li>
+            </ul>
+        </div>
+	</div>
+					</div>
+				</div>
+				<div class="con_r_drop" id="con_r_drop">
+					<img src="images/rollBarUp_bg.png" class="con_r_drop_up cur" />
+					<div class="con_r_drop_middle">
+						<div class="con_r_drop_middle_d" id="con_r_drop_middle_d"></div>
+					</div>
+					<img src="images/rollBarDown_bg.png" class="con_r_drop_down cur"/>
+				</div>
+			</div>
+		</div>
+		<div class="footer clearFix">
+			<span class="fl">傲视影音V1.0</span>
+			<a href="javascript:;" class="fl">检查更新</a>
+		</div>
+	</div>
+</body>
+</html>
