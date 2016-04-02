@@ -267,16 +267,16 @@ document.addEventListener('DOMContentLoaded',function(){
 		if(iNow==aMp3.length)iNow=0;
 		tab();
 	}
-	var bOk = true;
+	var bOk2 = true;
 	oMc.onclick=function(){
-		if(bOk){
+		if(bOk2){
 			oA.volume = 0;
 			oMc.value = '播放';
 		}else{
 			oA.volume = 1;
 			oMc.value = '静音'
 		}
-			bOk = !bOk;
+			bOk2 = !bOk2;
 	};
 	oMc1.onclick=function(){
 		iNow2++;

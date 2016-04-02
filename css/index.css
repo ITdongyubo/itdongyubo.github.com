@@ -4,14 +4,14 @@ width:expression(document.body.clientWidth < 1288? "1288px": "auto" ); }
 .head_l{width:23%;position:relative;}
 .information{position:fixed;top:0;left:0;background:#606d7e;width:23%;height:700px;}
 .information .hd{width:140px;height:140px;border:4px solid white;border-radius:50%;overflow:hidden;margin:40px 0 20px 40px;transition:1s all ease;}
-.information .hd:hover{border:4px solid #660;width:160px;height:160px;transition:1s all ease;transform:rotateY(180deg);}
+.information .hd:hover{border:4px solid #660;width:160px;height:160px;}
 .information .hd img{width:100%;}
 .information .name{margin-bottom:6px;color:white;font-size:18px;margin-left:40px;text-shadow: 2px 2px 5px #000}
 .information .job{font-size:14px;margin-left:40px;color:white;text-shadow: 2px 2px 5px #000}
 .head_l .option{width:100%;position:absolute;top:310px;left:0;overflow:hidden;}
 .head_l .option li{height:57px;width:100%;cursor:hand;margin:0;overflow:hidden;}
 .head_l .option li a{height:57px;background:url(../img/1.png) no-repeat 30px 16px;width:233px;line-height:57px;color:#fff;padding-left:75px;display:block;}
-.head_l .option .on{background:#5b6878;transition:.5s all ease;transform:rotateX(360deg);}
+.head_l .option .on{background:#5b6878; -webkit-transform:rotateX(360deg); -webkit-transition:0.5s all ease;-moz-transform:rotateX(360deg); -moz-transition:0.5s all ease; -ms-transform:rotateX(360deg); -ms-transition:0.5s all ease;opacity:0.7;-o-transform:rotateX(360deg); -o-transition:0.5s all ease;}
 .head_l #MC{position:absolute;left:7%;bottom:25px;width:100px;height:20px;background:#DDC8DE;border-radius:10px;border:none;}
 .head_l #MC1{position:absolute;right:10%;bottom:25px;width:100px;height:20px;background:#DDC8DE;border-radius:10px;border:none;}
 /*Right*/
