@@ -243,10 +243,7 @@ document.addEventListener('DOMContentLoaded',function(){
 										}});
 									},(aLi.length-i)*100);
 								})(i);
-							}
-							
-							
-							
+							}	
 						}
 					}});
 					
@@ -255,7 +252,7 @@ document.addEventListener('DOMContentLoaded',function(){
 		}
 	};
 	//点歌台
-	var aMp3 = ['Bruno Mars - Liquor Store Blues','Sting - Shape of My Heart (《这个杀手不太冷》电影片尾曲)','Toni Braxton - Fairy Tale','夜的钢琴曲','雨的印记'];
+	var aMp3 = ['夜的钢琴曲','Sting - Shape of My Heart (《这个杀手不太冷》电影片尾曲)','雨的印记'];
 	var oMc = document.getElementById('MC');
 	var oMc1 = document.getElementById('MC1');
 	var oA = new Audio();
@@ -272,15 +269,19 @@ document.addEventListener('DOMContentLoaded',function(){
 	}
 	var bOk = true;
 	oMc.onclick=function(){
-		if(bOk)
+		if(bOk){
 			oA.volume = 0;
-		else
+			oMc.value = '播放';
+		}else{
 			oA.volume = 1;
-		bOk = !bOk;
+			oMc.value = '静音'
+		}
+			bOk = !bOk;
 	};
 	oMc1.onclick=function(){
 		iNow2++;
 		if(iNow==aMp3.length)iNow=0;
 		tab();
 	};
+	//爆炸
 },false)
